@@ -17,8 +17,8 @@ function gethumanchoice() {
     return choice
 }
 
-humanScore = 0;
-computerScore = 0;
+// humanScore = 0;
+// computerScore = 0;
 
 
 function playRound(humanChoice, computerChoice) {
@@ -51,7 +51,19 @@ function playRound(humanChoice, computerChoice) {
     }
 }
 
-const humanSelection = gethumanchoice();
-const computerSelection = getComputerChoice();
+// const humanSelection = gethumanchoice();
+// const computerSelection = getComputerChoice();
 
-playRound(humanSelection, computerSelection);
+// playRound(humanSelection, computerSelection);
+
+function playGame () {
+    humanScore = 0;
+    computerScore = 0;
+    playRound()
+    playRound()
+    playRound()
+    playRound()
+    playRound()
+
+    console.log(humanScore, computerScore);
+}
