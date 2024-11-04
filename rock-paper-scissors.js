@@ -17,8 +17,8 @@ function gethumanchoice() {
     return choice
 }
 
-// humanScore = 0;
-// computerScore = 0;
+humanScore = 0;
+computerScore = 0;
 
 
 // function playRound(humanChoice, computerChoice) {
