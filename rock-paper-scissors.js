@@ -57,8 +57,8 @@ function playRound(humanChoice, computerChoice) {
 // playRound(humanSelection, computerSelection);
 
 function playGame () {
-    humanScore = 0;
-    computerScore = 0;
+    let humanScore = 0;
+    let computerScore = 0;
     playRound(gethumanchoice(), getComputerChoice())
     playRound(gethumanchoice(), getComputerChoice())
     playRound(gethumanchoice(), getComputerChoice())
