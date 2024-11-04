@@ -1,3 +1,4 @@
+//initializing computer choice
 function getComputerChoice () {
     let num = Math.random()*3
     if (num >= 2) {
@@ -9,6 +10,7 @@ function getComputerChoice () {
     }
 }
 
+//initializing human choice
 function gethumanchoice() {
     let choice = prompt("Choose among rock, paper, scissors:");
     if (choice.toLowerCase() !== "rock" && choice.toLowerCase() !== "paper" && choice.toLowerCase() !== "scissors"){
@@ -20,7 +22,7 @@ function gethumanchoice() {
 // humanScore = 0;
 // computerScore = 0;
 
-
+//game rules
 function playRound(humanChoice, computerChoice) {
     if (computerChoice === "scissors" && humanChoice.toLowerCase() === "paper") {
         console.log("You lose! Scissors beats paper.");
@@ -56,6 +58,8 @@ function playRound(humanChoice, computerChoice) {
 
 // playRound(humanSelection, computerSelection);
 
+
+//implement game
 function playGame () {
     let humanScore = 0;
     let computerScore = 0;
