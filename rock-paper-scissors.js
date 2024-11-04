@@ -59,12 +59,11 @@ function playRound(humanChoice, computerChoice) {
 function playGame () {
     humanScore = 0;
     computerScore = 0;
-    playRound()
-    playRound()
-    playRound()
-    playRound()
-    playRound()
-
+    playRound(gethumanchoice(), getComputerChoice())
+    playRound(gethumanchoice(), getComputerChoice())
+    playRound(gethumanchoice(), getComputerChoice())
+    playRound(gethumanchoice(), getComputerChoice())
+    playRound(gethumanchoice(), getComputerChoice())
     console.log(humanScore, computerScore);
 }
 
