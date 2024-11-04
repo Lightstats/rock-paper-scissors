@@ -9,13 +9,13 @@ function getComputerChoice () {
     }
 }
 
-// function gethumanchoice() {
-//     let choice = prompt("Choose among rock, paper, scissors:");
-//     if (choice.toLowerCase() !== "rock" && choice.toLowerCase() !== "paper" && choice.toLowerCase() !== "scissors"){
-//         return "Oops, that's not among the options! "
-//     } 
-//     return choice
-// }
+function gethumanchoice() {
+    let choice = prompt("Choose among rock, paper, scissors:");
+    if (choice.toLowerCase() !== "rock" && choice.toLowerCase() !== "paper" && choice.toLowerCase() !== "scissors"){
+        return "Oops, that's not among the options! "
+    } 
+    return choice
+}
 
 // humanScore = 0;
 // computerScore = 0;
